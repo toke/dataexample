@@ -6,4 +6,4 @@ title: Inventory List
 
 {{< inventory "sitea" >}}
 
-**Source:** `data/mitarbeiter/deleng`
+**Source:** `data/inventory/sitea`
