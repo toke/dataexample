@@ -1,0 +1,13 @@
+fqdn: "hostc.mysite.lan"
+hostname: "hostc"
+hardware:
+  - host:
+    ips:
+      lan: 10.23.64.22
+    mac:
+      lan: "aa:bb:cc:dd:ee:fa"
+    hardware: "DELL Fooo"
+    inventoryid: "123"
+    room: "BMT.2.1"
+    swi: 2B
+    date: "2022-09-01"

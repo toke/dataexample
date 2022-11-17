@@ -1,0 +1,13 @@
+fqdn: "hosta.mysite.lan"
+hostname: "hosta"
+hardware:
+  - host:
+    ips:
+      lan: 10.23.64.20
+    mac:
+      lan: "aa:bb:cc:dd:ee:ff"
+    hardware: "DELL Fooo"
+    inventoryid: "771661"
+    room: "BMT.2.1"
+    swi: 2A
+    date: "2022-09-01"

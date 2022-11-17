@@ -1,0 +1,12 @@
+fqdn: "hostb.mysite.lan"
+hostname: "hostb"
+hardware:
+  - ips:
+      lan: 10.23.64.22
+    mac:
+      lan: "aa:bb:cc:dd:ee:fb"
+    hardware: "DELL Fooo"
+    inventoryid: "324"
+    room: "BMT.2.1"
+    swi: 2A
+    date: "2022-09-01"

@@ -1,0 +1,35 @@
+
+<table>
+    <tr>
+        <th>FQDN</th>
+        <th>Host</th>
+        <th>IPs</th>
+        <th>Hardware</th>
+        <th>Inventory/th>
+        <th>Room</th>
+        <th>Switch</th>
+        <th>Date</th>
+    </tr>
+{{ $site := index $.Site.Data.inventory (.Get 0) }}
+{{ range $site }}
+    <tr>
+        {{ $tr := "" }}
+        <tr>
+            <td rowspan={{ len .hardware }}><div>{{ .fqdn }}</div>{{ if .hostname }} ({{ .hostname }}){{ end }}</td>
+        {{ range .hardware }}
+                {{ $tr | safeHTML }}
+                    <td>
+                        LAN: {{.ips.lan }}{{ if .mac.lan }} -&gt; {{ .mac.lan }}{{ end }}
+                        {{ if .ips.wifi }}<br/>WIFI: {{.ips.wifi }} {{ .mac.wifi }}{{ end }}
+                        {{ if .ips.vpn }}<br/>VPN: {{.ips.vpn }}{{ end }}
+                    </td>
+                    <td>{{ .hardware }}</td>
+                    <td>{{ .inventarnr }}</td>
+                    <td>{{ .room }}</td>
+                    <td>{{ .swi }}</td>
+                    <td>{{ .date }}</td>
+                </tr>
+                {{ $tr = "<tr>"}}
+        {{ end }}
+{{ end }}
+</table>

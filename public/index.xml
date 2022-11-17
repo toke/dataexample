@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inventory List</title>
+      <link>http://example.org/inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/inventory/</guid>
+      <description>Data Example FQDN Host IPs Hardware Inventory/th&gt; Room Switch Date hosta.mysite.lan (hosta) LAN: 10.23.64.20 -&amp;gt; aa:bb:cc:dd:ee:ff DELL Fooo BMT.2.1 2A 2022-09-01 hostb.mysite.lan (hostb) LAN: 10.23.64.22 -&amp;gt; aa:bb:cc:dd:ee:fb DELL Fooo BMT.2.1 2A 2022-09-01 hostc.mysite.lan (hostc) LAN: 10.23.64.22 -&amp;gt; aa:bb:cc:dd:ee:fa DELL Fooo BMT.2.1 2B 2022-09-01 Source: data/mitarbeiter/deleng</description>
+    </item>
+    
+  </channel>
+</rss>
