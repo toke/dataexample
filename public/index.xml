@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/inventory/</guid>
-      <description>Data Example FQDN Host IPs Hardware Inventory/th&gt; Room Switch Date hosta.mysite.lan (hosta) LAN: 10.23.64.20 -&amp;gt; aa:bb:cc:dd:ee:ff DELL Fooo 771661 BMT.2.1 2A 2022-09-01 hostb.mysite.lan (hostb) LAN: 10.23.64.22 -&amp;gt; aa:bb:cc:dd:ee:fb DELL Fooo 324 BMT.2.1 2A 2022-09-01 hostc.mysite.lan (hostc) LAN: 10.23.64.22 -&amp;gt; aa:bb:cc:dd:ee:fa DELL Fooo 123 BMT.2.1 2B 2022-09-01 Source: data/inventory/sitea</description>
+      <description>Data Example FQDN Host IPs Hardware Inventory Room Switch Date hosta.mysite.lan (hosta) LAN: 10.23.64.20 -&amp;gt; aa:bb:cc:dd:ee:ff DELL Fooo 771661 BMT.2.1 2A 2022-09-01 hostb.mysite.lan (hostb) LAN: 10.23.64.22 -&amp;gt; aa:bb:cc:dd:ee:fb DELL Fooo 324 BMT.2.1 2A 2022-09-01 hostc.mysite.lan (hostc) LAN: 10.23.64.22 -&amp;gt; aa:bb:cc:dd:ee:fa DELL Fooo 123 BMT.2.1 2B 2022-09-01 Source: data/inventory/sitea</description>
     </item>
     
   </channel>
